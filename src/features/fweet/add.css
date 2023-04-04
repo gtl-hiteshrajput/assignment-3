@@ -1,0 +1,23 @@
+.Add-Parent {
+   position: relative;
+}
+.Add-Parent .add-details {
+  padding: 20px;
+}
+/*sourceMappingURL=Login.css.map */
+@media only screen and (min-width: 900px) {
+  .Add-Parent .logo {
+    margin-top: 50px;
+  }
+  .Add-Parent .add-details {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .Add-Parent {
+    min-height: calc(100% - 150px);
+    overflow: auto;
+    justify-content: center;
+  }
+}

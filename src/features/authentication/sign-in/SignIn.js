@@ -126,7 +126,7 @@ const SignIn = () => {
                                 variant='text'
                                 color='inherit'
                                 sx={{ display: 'block', ml: 'auto', textTransform: 'capitalize' }}
-                                onClick={() => { }} text='Forgot password' />
+                                onClick={() => { }} text='Forgot password?' />
                             <MDButton variant='contained' type='submit' sx={{ mt: 3, width: 1, backgroundColor: '#3E54AC', "&:hover": { backgroundColor: "#3E54AC" } }} size='large' text='Login' onClick={handleLogin} />
                         </div>
                     </div>
